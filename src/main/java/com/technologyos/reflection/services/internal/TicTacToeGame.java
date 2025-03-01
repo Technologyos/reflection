@@ -1,12 +1,12 @@
 package com.technologyos.reflection.services.internal;
 
-import com.technologyos.reflection.services.IGame;
+import com.technologyos.reflection.services.Game;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class TicTacToeGame implements IGame {
+public class TicTacToeGame implements Game {
     private static final int NUMBER_OF_PLAYERS = 2;
     private final Random random = new Random();
     private final List<Sign> playerSigns = Arrays.asList(Sign.X, Sign.Y);

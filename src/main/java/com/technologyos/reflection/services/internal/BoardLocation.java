@@ -1,8 +1,8 @@
 package com.technologyos.reflection.services.internal;
 
 class BoardLocation {
-    private int row;
-    private int column;
+    private final int row;
+    private final int column;
 
     public BoardLocation(int row, int column) {
         this.row = row;

@@ -1,5 +1,5 @@
 package com.technologyos.reflection.services;
 
-public interface IDrawable {
+public interface Drawable {
     int getNumberOfCorners();
 }

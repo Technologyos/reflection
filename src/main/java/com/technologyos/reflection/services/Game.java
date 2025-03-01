@@ -1,5 +1,5 @@
 package com.technologyos.reflection.services;
 
-public interface IGame {
+public interface Game {
     void startGame();
 }
