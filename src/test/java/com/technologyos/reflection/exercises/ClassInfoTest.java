@@ -1,14 +1,12 @@
 package com.technologyos.reflection.exercises;
 
 import com.technologyos.reflection.enums.Color;
-import com.technologyos.reflection.services.IDrawable;
+import com.technologyos.reflection.services.Drawable;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ClassInfoTest {
 
@@ -21,7 +19,7 @@ class ClassInfoTest {
 
         Class<?> squareClass = Class.forName("com.technologyos.reflection.Main$Square");
 
-        var circleObject = new IDrawable() {
+        var circleObject = new Drawable() {
             @Override
             public int getNumberOfCorners() {
                 return 0;
